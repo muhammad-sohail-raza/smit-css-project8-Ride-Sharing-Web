@@ -1,0 +1,120 @@
+:root {
+    --primary-1: #75BF7A;
+    --primary-2: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+}
+
+/* nav bar css start */
+
+header {
+    width: 100%;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 174px;
+    display: flex;
+}
+nav img {
+    width: 180px;
+    height: 51px;
+    margin: 85px 0px 38px 80px;
+}
+
+.nav-links {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 27%;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin-top: 100px;
+    margin-bottom: 51px;
+    padding-right: 46px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 17.16px;
+    line-height: 100%;
+}
+
+button {
+    width: 182px;
+    height: 50px;
+    border: none;
+    border-radius: 5.95px;
+    margin-top: 50px;
+    margin-left: 1px;
+    background-color: var(--primary-1);
+    color: var(--primary-2);
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    padding: 12px 27px 11px 28px;
+}
+
+.nav-links span  {
+    display: none;
+}
+
+/* nav bar css end */
+
+
+/* hero section css start  */
+
+.hero-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(190, 89, 89);
+    padding-left: 65px;
+}
+
+.hero-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:45%;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.hero-section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 500px;
+    background-color: pink;
+}
+
+.hero-section-img img {
+    width: 553px;
+    height: 500px;
+    
+}
+
+
