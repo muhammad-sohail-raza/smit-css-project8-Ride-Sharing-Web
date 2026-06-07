@@ -96,11 +96,9 @@ nav img {
 .hero-section-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width:45%;
     height: 500px;
-    background-color: aquamarine;
 }
 
 .hero-section-img {
@@ -109,7 +107,6 @@ nav img {
     align-items: center;
     width: 45%;
     height: 500px;
-    background-color: pink;
 }
 
 .hero-section-img img {
@@ -120,15 +117,17 @@ nav img {
 
 .black-btn{
     display: flex;
+    justify-content: space-between;
+    width: 560px;
+    margin-top: 82px;
     
 }
 
 .heading{
     width: 560px;
     height: 175px;
-    border: 1px solid black;
-    margin-bottom: 80px;
-    margin-left: 0px;
+    margin-top: 45px;
+
 }
 
 .heading h2{
@@ -140,7 +139,34 @@ nav img {
 
 
 .paragraph{
-    width: 550px;
+    width: 560px;
     height: 120px;
-    border: 1px solid black;
+    margin-top: 27px;
+    
 }
+
+.paragraph p{
+    font-family: Gilroy;
+    font-style: Medium;
+    font-size: 27px;
+    color: #9E9DA2;
+}
+
+.black-btn button{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.black-btn button i{
+    font-size: 25px;
+}
+
+.black-btn button span{
+    font-size: 25px;
+}
+
