@@ -90,7 +90,7 @@ nav img {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 30px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .hero-section-text {
@@ -99,7 +99,7 @@ nav img {
   align-items: center;
   width: 45%;
   height: 500px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .hero-section-img {
@@ -108,7 +108,7 @@ nav img {
   align-items: center;
   width: 45%;
   height: 500px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .hero-section-img img {
@@ -169,7 +169,7 @@ nav img {
 }
 
 .section1{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100px;
   width: 1155px;
   display: flex;
@@ -183,7 +183,7 @@ nav img {
 
 }
 .section1 > div{
-   border: 1px solid black;
+   /* border: 1px solid black; */
    width: 149px;
    height: 41px;
    display: flex;
@@ -199,7 +199,7 @@ nav img {
 }
 
 .section1 .INPUT{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 700px;
   height: 41px;
   display: flex;
@@ -276,102 +276,3 @@ nav img {
   color: #9E9DA2;
 }
 
-.section3{
-   border: 1px solid black;
-   margin-top: 164px;
-   width: 1155px;
-   margin-left: 62px;
-}
-
-.section3 .first{
-   border: 1px solid black;
-   display: flex;
-}
-
-.section3 .first .one{
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 300px;
-}
-
-.section3 .first .one img{
-  width: 60.81920623779297px;
-}
-
-.section3 .first .one h4{
-  font-weight: 800;
-}
-
-.section3 .first .one p{
-border: 1px solid black;
-text-align: end;
-margin-top: 5px;
-}
-
-.section3 .first .two{
-   width: 300px;
-     border: 1px solid black;
-
-}
-.section3 .first .two img{
-  width: 60.81920623779297px;
-}
-
-.section3 .first .two h4{
-  font-weight: 800;
-
-}
-
-.section3 .first .two p {
-border: 1px solid black;
-margin-top: 5px;
-}
-
-.section3 .second{
-  border: 1px solid black;
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-}
-
-.section3 .third{
-   border: 1px solid black;
-   display: flex;
-}
-
-.section3 .third .three{
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.section3 .third .three img{
-  width: 60.81920623779297px;
-}
-
-.section3 .third .three h4{
- font-weight: 800;
-}
-
-.section3 .third .three p{
-  border: 1px solid black;
-  text-align: end;
-  margin-top: 5px;
-}
-
-.section3 .third .four img{
-  width: 60.81920623779297px;
-}
-
-.section3 .third .four h4{
-  font-weight: 800;
-}
-
-.section3 .third .four p{
-  border: 1px solid black;
-  margin-top: 5px;
-}
