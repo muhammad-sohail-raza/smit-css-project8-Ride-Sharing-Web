@@ -276,3 +276,51 @@ nav img {
   color: #9E9DA2;
 }
 
+.section3{
+  border: 1px solid black; 
+  height: 900px;
+  width: 1155px;
+  margin-left: 62px;
+  margin-top: 143px;
+  display: flex;
+}
+
+.section3 .first{
+  border: 1px solid black; 
+  height: 710px;
+  width: 382px;
+}
+
+.section3 .first div{
+  border: 1px solid black; 
+  height: 350px;
+  width: 370px; 
+}
+
+.section3 .second{
+  border: 1px solid black; 
+  height: 710px;
+  width: 382px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section3 .second div{
+  border: 1px solid black; 
+  height: 400px;
+  width: 380px;
+  border-radius: 50%;
+}
+
+.section3 .third{
+  border: 1px solid black; 
+  height: 710px;
+  width: 382px;
+}
+
+.section3 .third div{
+  border: 1px solid black; 
+  height: 350px;
+  width: 370px;
+}   
