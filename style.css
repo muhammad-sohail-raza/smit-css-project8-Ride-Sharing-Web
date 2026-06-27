@@ -200,7 +200,7 @@ nav img {
 .section1 .INPUT {
   /* border: 1px solid black; */
   width: 700px;
-  height: 41px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -209,7 +209,7 @@ nav img {
 .section1 .INPUT input {
   font-size: 22px;
   width: 500px;
-  height: 35px;
+  height: 45px;
   border-radius: 4.39px;
 }
 
@@ -220,7 +220,7 @@ nav img {
 
 .section1 .INPUT button {
   width: 180px;
-  height: 35px;
+  height: 45px;
   font-family: Gilroy, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -403,4 +403,42 @@ margin-left: 62px;
 width: 1155px;
 height: 20.77202033996582px;
 align-items: center;
+}
+
+.section3 + div + .mid-heading{
+ /* border: 1px solid black; */
+ width: 1155px;
+ height: 51px;
+ margin-left: 62px;
+ margin-top: 62px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.section3 + div + .mid-heading h3{
+   font-weight: 800;
+   font-style: bold;
+   font-size: 30px;
+
+}
+
+.section3 + div + .mid-heading h3 span{
+  color: #75BF7A;
+}
+
+.section4{
+  border: 1px solid black;
+  height: 304px;
+  width: 1155px;
+  margin-left: 62px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.section4 div{
+  border: 1px solid black;
+  height: 300px;
+  width: 570px;
 }
