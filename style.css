@@ -339,7 +339,7 @@ nav img {
 .section3 .second {
   /* border: 1px solid black;  */
   height: 435px;
-  width: 382px;
+  width: 385px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -393,4 +393,14 @@ nav img {
 .section3 .third .four p {
   padding-top: 8px;
   color: #9e9da2;
+}
+
+.section3 + div{
+/* border: 1px solid black; */
+display: flex;
+justify-content: center;
+margin-left: 62px;
+width: 1155px;
+height: 20.77202033996582px;
+align-items: center;
 }
