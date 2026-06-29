@@ -158,7 +158,35 @@ nav img {
   justify-content: space-around;
   align-items: center;
   border-radius: 5px;
+
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+.black-btn button:hover,
+.black-btn button:focus {
+  opacity: .75;
+  transform: translateY(-2px);
+
+}
+
 
 .black-btn button i {
   font-size: 25px;
@@ -428,17 +456,17 @@ align-items: center;
 }
 
 .section4{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 304px;
   width: 1155px;
   margin-left: 62px;
-  margin-top: 20px;
+  margin-top: 52px;
   display: flex;
   justify-content: center;
 }
 
 .section4 .two-box{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 300px;
   width: 570px;
   display: flex;
@@ -447,15 +475,16 @@ align-items: center;
 }
 
 .section4 > .two-box .block1{
-   border: 1px solid black;
+   /* border: 1px solid black; */
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   padding-left: 65px;
 }
 
 .section4 > .two-box .block2{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 24px;
+  padding-left: 65px;
 }
 
 .section4 .two-box .block1 img{
@@ -466,4 +495,21 @@ align-items: center;
 .section4 .two-box .block1 h4{
  font-weight: 600;
  font-size: 27px;
+}
+
+.section4 .two-box .block2 p{
+  color: #9E9DA2;
+} 
+
+.section4 > .two-box + .two-box div{
+  /* border: 1px solid black; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4 > .two-box + .two-box img{
+  width: 300px;
+  height: 300px;
 }
