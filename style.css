@@ -437,14 +437,33 @@ align-items: center;
   justify-content: center;
 }
 
-.section4 div{
+.section4 .two-box{
   border: 1px solid black;
   height: 300px;
   width: 570px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.section4 div img{
+.section4 > .two-box .block1{
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.section4 > .two-box .block2{
+  border: 1px solid black;
+  margin-top: 24px;
+}
+
+.section4 .two-box .block1 img{
   width: 107px;
   height: 70px;
+}
+
+.section4 .two-box .block1 h4{
+ font-weight: 600;
+ font-size: 27px;
 }
