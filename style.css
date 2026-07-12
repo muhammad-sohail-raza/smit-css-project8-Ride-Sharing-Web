@@ -253,7 +253,38 @@ nav img {
   border-radius: 4.39px;
   color: #ffffff;
   background-color: #000000;
+
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+.section1 .INPUT button:hover,
+.section1 .INPUT button:focus{
+  opacity: 0.75;
+  transform: translateY(-2px);
+}
+
+.section1 .INPUT button:active{
+   opacity: o.3;
+}
+
 
 .section2 {
   /* border: 1px solid black; */
@@ -370,7 +401,14 @@ nav img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
+
+.section3 .second img{
+  width: 250px;
+  height: 485px;
+  position: absolute;
+} 
 
 .section3 .second div {
   /* border: 1px solid black;  */
